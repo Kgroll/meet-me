@@ -21,13 +21,13 @@
 
 .header {
   padding: 15px 6% 15px 0;
-  display: flex;
+  display: inline;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  background-color: violet;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  
 }
 
 .header h1 {
@@ -35,8 +35,9 @@
   background-color: purple;
   padding: 5px 1% 5px 6%;
   margin: 0;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1;
+  text-align: center;
 
 }
   
@@ -58,14 +59,15 @@
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
   justify-content: stretch;
+  background-color: cadetblue;
 }
 
-.nav a:hover {
+.header nav a:hover {
   background-size: 100% 100%;
   color: darkgoldenrod;
 }
 
-.nav a:last-child {
+.header nav a:last-child {
   margin-right: 0;
 }
 
@@ -237,7 +239,7 @@
     background-image: url("digital-marketing-meeting.jpg");
   }
   .stay-tuned {
-    background-image: url();
+    background-image: url("wall.jpg");
   }
   /*end portfolio images*/
 
@@ -281,7 +283,9 @@
     .grid-container {
       grid-auto-rows: minmax(200px, 1fr);
     }
-
+  .hero-banner img {
+    text-align: left;
+}
     .hero-banner {
       justify-content: center;
       text-align: center;
