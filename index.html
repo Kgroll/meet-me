@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <meta charset="utf-8" />
@@ -7,41 +7,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <!--Title-->
 <title>Kristen Groller's Portfolio!</title>
-
 <link rel="stylesheet" type="text/css" href="./style.css" />
-
 </head>
-<!--header-->
+<!--end title-->
+
+
+<body>
+<!--header start-->
 <header>
-    <div class="flex-item item-1">Welcome to my Portfolio!</div>
-    <div class="flex-item item-2">Kristen Groller</div>
+    <h1>Welcome to my Portfolio!</h1>
+    <nav>
+        <a href="#about">About Me:</a>
+        <a href="#projects">My Projects:</a>
+        <a href="#contact">Contact Me:</a>
+        <a href="#">My Resume</a>
+        <!--link this to my resume-->
+    </nav>  
 </header>
 
 
-        
-
-<body>
-    <div class="container">
-    <div class="grid-container">
-        
-        <div class="grid-item item-1"><img src="profilemugshot.jpg" alt=""></div>
-
-        
-        <div class="grid-item item-2">
-            <p>About me: <br> </p>           
-            <p>Hi! My name is Kristen Groller. At the present time I am a Medical Sonographer
-            specializing in High Risk Obstetrics.</p>
-        </div>
-
-    
-        <div class="grid-item item-3">My projects:</div> 
-  
-       
-    
-      
+  <!--hero banner--> 
+  <section class="hero-banner">
+    <div>
+        <h2>I'd like to introduce myself...</h2>
     </div>
-  </body>
-<footer>
+  </section>     
+
+  <main class="page-wrapper">
+      <!--About me section-->
+    <section class="page-section" id="about">
+        <h2>About me:</h2>
+        <div>
+            <div><img src="profilemugshot.jpg" alt=""></div>
+            <p>Hi! My name is Kristen Groller. At the present time I am a Medical Sonographer
+                specializing in High Risk Obstetrics.</p>
+            <p>Add another paragraph here</p>
+        </div>
+    </section>
+ 
+<!--portfolio grid-->
+
+    <dsection class="page-section" id="projects">
+        <h2>My Projects:</h2>
+    <div class="grid-container">
+
+        <a href="#" class="grid-item run-buddy">
+            <div>
+                <h3>Run Buddy</h3>
+                <span>HTML/CSS</span>
+            </div>
+        </a>
+
+        <a href="#" class="grid-item Horiseon">
+            <div>
+                <h3>Horiseon Marketing</h3>
+                <span>HTML/CSS</span>
+            </div>
+        </a>
+
+        <a href="#" class="grid-item Stay tuned for more awesome projects!">
+        <div>
+            <h3>Stay tuned for more awesome projects! </h3>
+        </div>
+    </a>       
+          
+        </div>
+    </section>
+
+    
+        
+           
+ 
+
 
     <div class="flex-container">
         <div class="flex-item item-4">My contact information:
@@ -50,9 +87,10 @@
         <ul><strong>LinkedIn:</strong> <a href="#">coming soon</a></ul></div>
         </div>
     </ul>
-    </div>
-</div>
-</footer>
-
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 
 </html>
