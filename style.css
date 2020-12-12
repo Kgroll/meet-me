@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:blueviolet;
+  color: blueviolet;
   background-color: tomato;
   line-height: 1.5;
   display: block;
@@ -27,12 +27,12 @@
   flex-wrap: wrap;
   align-items: center;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-  
+ 
 }
 
 .header h1 {
-  color: #fb3e55;
-  background-color: purple;
+  color: #192231;
+  background-color: #985e6d;
   padding: 5px 1% 5px 6%;
   margin: 0;
   font-size: 3vw;
@@ -65,6 +65,7 @@
 .header nav a:hover {
   background-size: 100% 100%;
   color: darkgoldenrod;
+  background-color: cornsilk;
 }
 
 .header nav a:last-child {
@@ -77,12 +78,12 @@
 }
   /*start hero*/
  .hero-banner {
-   background-color: pink;
+   background-color: #98878f;
    background-size: cover;
    background-position: center;
    background-blend-mode: soft-light;
    min-height: 30vh;
-   color: darkseagreen;
+   color: red;
    padding: 2% 6%;
    display: flex;
    justify-content: flex-end;
@@ -95,8 +96,8 @@
    flex: 0 0 90%;
  }
  .hero-banner h2 {
-   background-color: darkseagreen;
-   color: firebrick;
+   background-color: #98878f;
+   color: #192231;
    margin: 0;
    padding: 5px 10px;
    font-size: 3rem;
@@ -137,9 +138,9 @@
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
-  border-right: 4px solid blueviolet;
+  border-right: 6px solid #985e6d;
   font-size: 4vw;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .page-section div {
@@ -164,8 +165,8 @@
   .grid-item {
     border: 5px solid rgba(0, 0, 0, 0.2);
     grid-column: span 4;
-    background-color: aquamarine; 
-    color: crimson;
+    background-color: #98878f; 
+    color: #192231;
     min-height: 150px;
     display: flex;
     align-items: flex-end;
@@ -186,12 +187,13 @@
    grid-row: span 2;  
   }
   
+
 .grid-item:hover {
-  background-color: goldenrod;
+  background-color: transparent;
 }
 
 .grid-item div {
-  background-color: darkcyan;
+  background-color:#98878f;
   padding: 8px 10px;
 }
 .grid-item h3 {
@@ -239,6 +241,12 @@
     background-image: url("digital-marketing-meeting.jpg");
   }
   .stay-tuned {
+    background-image: url("fireworks.jpg");
+  }
+  .future-projects1 {
+    background-image: url("wall.jpg");
+  }
+  .future-projects2 {
     background-image: url("wall.jpg");
   }
   /*end portfolio images*/
