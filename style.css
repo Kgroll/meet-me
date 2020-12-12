@@ -3,7 +3,9 @@
     padding: 0;
 }
  
-
+.header {
+  
+}
 
 html {
     /* border-box box model allows us to add padding and border to our elements without increasing their size */
@@ -22,18 +24,41 @@ html {
   }
   
   body {
-    margin: 50px;
+    margin: 25px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: start;
+    flex-direction: row;
   }
   
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 100%;
     grid-gap: 20px;
     grid-auto-flow: dense;
+    width: 100%;
   }
-  
   .grid-item {
+    display: flex;
+    justify-content: center ;
+    align-items: center top;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 35px;
+    background-color: aquamarine;  
+  }
+
+  .grid-item2 {
+
+  }
+/*flex child*/
+
+  .flex-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,9 +66,26 @@ html {
     border-radius: 5px;
     font-size: 35px;
     background-color:purple;  
+  
   }
-  .item-3 {
-      grid-row: span 2;
-      grid-column: span 2;
+  
+
+  .flex-item span {
+    /* pushes element to bottom of flex item */
+    margin-top: auto;
+    width: 100%;
+    background-color: #a8adba;
+    color: #393b4f;
+    padding: 10px 5px;
+    text-align: center;
+  }
+/*footer start*/
+  .footer {
+    width: 100%;
+    padding: 45px 0;
+    background-color: #393b4f;
+    color: #fb3e55;
+    margin-top: auto;
+    text-align: justify;
   }
   
