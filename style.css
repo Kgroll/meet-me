@@ -252,7 +252,7 @@
   /*end portfolio images*/
 
   /*start header part 2*/
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 600px) {
     .header {
       padding: 100%;
       justify-content: center;
@@ -274,7 +274,7 @@
     }
     .page-section > h2 {
       border-right: none;
-      border-bottom: 4px solid pink;
+      border-bottom: 4px solid #192231;
       margin-bottom: 20px;
       padding-bottom: 20px;
       text-align: left;
@@ -282,7 +282,7 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .grid-item,
     .grid-item:first-child {
       grid-column: 1 / -1;
