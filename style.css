@@ -41,9 +41,7 @@
   text-align: center;
 
 }
-.header h2 {
-  
-}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -92,7 +90,7 @@
    justify-content: flex-end;
    align-items: flex-end;
    text-align: right;
-
+   background-image: url("Sparkles.jpg");
  } 
 
  .hero-banner div {
@@ -106,12 +104,14 @@
    font-size: 3rem;
    line-height: 1.2;
    display: inline;
+  
    
  }
  .grid-container.about {
    grid-template-columns: 1fr 1fr;
-   grid-template-columns: 1fr;
+   grid-template-columns: 1fr;   
  }
+ 
 .page-wrapper {
   max-width: 88%;
   margin-left: auto;
@@ -128,6 +128,7 @@
   line-height: 1.2;
   color: #393b4f;
   justify-content:space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -151,11 +152,11 @@
 }
 
 .page-section div {
-  flex: 0 0 77%;
+  flex: 0 0 75%;
 }
 
 .page-section p {
-  margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 /*begin grid container*/
@@ -285,7 +286,7 @@
       margin-bottom: 20px;
       padding-bottom: 20px;
       text-align: left;
-      font-size: 7vw;
+      font-size: 5vw;
     }
   }
 
