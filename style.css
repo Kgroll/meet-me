@@ -241,6 +241,10 @@
   
   /*portfolio images*/
 
+  .e-z-budget {
+    background-image: url("e-z-budget.png");
+  }
+  
   .run-buddy {
     background-image: url("hero-bg.jpg");
   }
